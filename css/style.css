@@ -1,0 +1,308 @@
+a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+.btn-secondary {
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #0d6efd;
+  border-radius: 5px;
+  color: white;
+  margin-left: 20px;
+}
+
+.btn-third {
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #0d6efd;
+  border-radius: 5px;
+  color: white;
+  margin-left: 20px;
+  background-color: white;
+  color: #0d6efd;
+  border: 1px solid;
+  width: 230px;
+  margin: auto;
+}
+.btn-third:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.inscrivez {
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #0d6efd;
+  border-radius: 5px;
+  color: white;
+  margin-left: 20px;
+  padding: 25px;
+  font-size: 20.7px;
+}
+
+.email {
+  padding: 20px;
+  font-size: 1.5em;
+  font-size: 20.3px;
+  width: 400px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+}
+
+.icon img {
+  width: 150px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.3em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 5px black 1;
+}
+
+.hero {
+  width: 80%;
+  margin: auto;
+}
+
+.hero-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.hero-flex p {
+  margin-bottom: 60px;
+}
+
+p {
+  font-size: 20.3px;
+}
+
+.section2 {
+  text-align: center;
+}
+.section2 p {
+  font-size: 21px;
+}
+.section2 h2 {
+  font-size: 34px;
+}
+.section2 a {
+  font-size: 21px;
+}
+.section2 .img1 {
+  margin-top: 30px;
+}
+.section2 p {
+  margin-bottom: 50px;
+}
+.section2 .small {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.section2 .small img {
+  width: 10%;
+}
+
+p {
+  font-size: 21px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+.container2 {
+  margin-top: 150px;
+  width: 55%;
+}
+.container2 p {
+  margin-bottom: 60px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.container3 div:first-of-type {
+  width: 40%;
+}
+.container3 div:last-of-type {
+  width: 55%;
+}
+.container3 h4:hover {
+  text-decoration: underline;
+}
+
+.container4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.container4 div:first-of-type {
+  width: 66%;
+}
+.container4 div:last-of-type {
+  width: 40%;
+}
+.container4 h4:hover {
+  text-decoration: underline;
+}
+
+.conatiner5 {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 100px 0;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.conatiner5 .div1 {
+  display: flex;
+  justify-content: space-between;
+  width: 48%;
+}
+.conatiner5 .div1 img {
+  width: 40%;
+}
+.conatiner5 .div-text {
+  margin-left: 50px;
+}
+.conatiner5 .div-text p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px 0 40px;
+}
+.conatiner5 .div-text h3 {
+  font-size: 25px;
+}
+
+.ebay {
+  background-color: #e6fcff;
+  padding: 100px 0 40px;
+  position: relative;
+}
+.ebay .quote i {
+  font-size: 35px;
+  position: absolute;
+  top: 12%;
+  left: 36%;
+}
+.ebay .ebay_container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid black;
+  padding-bottom: 100px;
+}
+.ebay .ebay_container .ebay_img {
+  width: 50%;
+}
+.ebay .ebay_container .ebay_img img {
+  width: 90%;
+}
+.ebay .ebay_container .ebay_img .text_left {
+  margin-top: 120px;
+}
+.ebay .ebay_container .ebay_img h4, .ebay .ebay_container .ebay_img h3 {
+  margin-bottom: 5px;
+}
+.ebay .ebay_container .ebay_text {
+  width: 100%;
+}
+.ebay .ebay_container .ebay_text p {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.ebay .ebay_container .ebay_text .text_right {
+  text-align: right;
+  margin-top: 50px;
+}
+.ebay .ebay_container .ebay_text .text_right h4, .ebay .ebay_container .ebay_text .text_right h6 {
+  font-size: 18px;
+  letter-spacing: 0;
+  margin-bottom: 5px;
+}
+.ebay .next {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+.ebay .next i {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.ebay .next button {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  margin: 0 10px;
+  vertical-align: bottom;
+}
+
+.inscription {
+  margin-top: 100px;
+  width: 80%;
+  margin: auto;
+  background-image: url(../images/Capture.jfif);
+  padding: 40px;
+  text-align: center;
+}
+.inscription p {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: white;
+}
+.inscription .email {
+  padding: 0.375rem 0.75rem;
+  width: 200px;
+}
+.inscription .btn-secondary {
+  font-size: 1.25em;
+}
+.inscription .btn-secondary:hover {
+  background-color: #408cfd;
+}
+
+/*# sourceMappingURL=style.css.map */

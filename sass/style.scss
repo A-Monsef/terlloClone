@@ -1,0 +1,246 @@
+@import 'buttons';
+@import 'config';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+img{
+    width: 100%;
+}
+.icon img{
+    width: 150px;
+    margin: auto;
+}
+h1 {
+    font-size: 2.3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+@mixin flex {
+display: flex;
+justify-content: space-between;
+}
+nav{
+    padding: 20px;
+    @include flex;
+    box-shadow: 0px 0px 5px black opacity($color: #786a6a);
+}
+.hero{
+    width: 80%;
+    margin: auto;
+}
+.hero-flex{
+   
+    @include flex;
+    align-items: center;
+    margin-bottom: 50px;
+    p{
+        margin-bottom: 60px;
+    }
+}
+p{
+    font-size: 20.3px;
+}
+.section2{
+    text-align: center;
+    p{
+        font-size: 21px;
+    }
+    h2{
+        font-size: 34px;
+    }
+    a{
+        font-size: 21px;
+    }
+    .img1{
+        margin-top: 30px;
+    }
+    p{
+        margin-bottom: 50px;
+    }
+    .small{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 50px;
+        img{
+            width: 10%;
+        }
+    }
+}
+p{
+    font-size: 21px;
+}
+h2{
+    font-size: 34px;
+}
+h3{
+    font-size: 15px;
+}
+h4{
+    font-size: 24px;
+}
+
+.container2{
+    margin-top: 150px;
+    width: 55%;
+    p{
+        margin-bottom: 60px;
+    }
+}
+.container3{
+    @include flex;
+    div:first-of-type{
+        width: 40%;
+    }
+    div:last-of-type{
+        width: 55%;
+    }
+    margin-top: 150px;
+    h4:hover{
+        text-decoration: underline;
+       }
+}
+.container4{
+    @include flex;
+    div:first-of-type{
+        width: 66%;
+    }
+    div:last-of-type{
+        width: 40%;
+    }
+    margin-top: 150px;
+   h4:hover{
+    text-decoration: underline;
+   }
+}
+.conatiner5{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 100px 0;
+    padding: 40px;
+    @include flex;
+    .div1{
+        @include flex;
+        width: 48%;
+        img{
+            width: 40%;
+        }
+    }
+    .div-text{
+        margin-left: 50px;
+        p{
+            font-size: 18px;
+            line-height: 1.5;
+            margin: 20px 0 40px;
+        }
+        h3{
+            font-size: 25px;
+        }
+    }
+}
+.ebay {
+    background-color: #e6fcff;
+    padding: 100px 0 40px;
+    position: relative;
+    .quote i{
+        font-size: 35px;
+        position: absolute;
+        top:12%;
+        left: 36%;
+
+    }
+    .ebay_container{
+        width: 80%;
+        margin: auto;
+        @include flex;
+        
+        border-bottom: 5px solid black;
+        padding-bottom: 100px;
+        .ebay_img{
+            width: 50%;
+            img{
+                width: 90%;
+
+            }
+            .text_left{
+                margin-top: 120px;
+            }
+            h4, h3{
+                margin-bottom: 5px;
+            }
+        }
+        .ebay_text{
+            width: 100%;
+            p{
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 1.5;
+            }
+            .text_right{
+                text-align: right;
+                margin-top: 50px;
+                h4, h6{
+                    font-size: 18px;
+                    letter-spacing: 0;
+                    margin-bottom: 5px;
+            }
+        }
+    }
+    }
+    .next{
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        i{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+        button{
+            background-color: black;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: none;
+            margin: 0 10px;
+            vertical-align: bottom;
+        }
+    }
+}
+.inscription{
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    background-image: url(../images/Capture.jfif);
+    padding: 40px;
+    text-align: center;
+    p{
+        margin-bottom: 20px;
+        font-size: 25px;
+        color: white;
+    }
+    .email{
+        padding: 0.375rem 0.75rem;
+        width: 200px;
+    }
+    .btn-secondary{
+        font-size: 1.25em;
+        &:hover{
+            background-color: lighten($primary-color, $amount: 10);
+        }
+    }
+}
+
